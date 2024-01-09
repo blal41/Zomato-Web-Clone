@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bodar.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div>
+                <a href="https://www.zomato.com/mobile">
+                    <h3 style="font-size: 22px;">Get the app</h3>
+                </a>
+            </div>
+            <ul class="navbar" style="font-size: 28px;">
+                <li><a href="https://www.zomato.com/investor-relations" style="color:aliceblue">Investor relation |</a>
+                </li>
+                <li><a href="https://www.zomato.com/partner-with-us" style="color:aliceblue">add restaurent |</a> </li>
+                <li><a href="https://www.zomato.com/jodhpur/login-besant-nagar/menu" style="color:aliceblue">log in
+                        |</a>
+                </li>
+                <li><a href="https://www.zomato.com/jodhpur/logout-besant-nagar/menu" style="color:aliceblue">sign-up
+                        |</a></li>
+            </ul>
+        </div>
+        <div class="logo" style="text-align: center ">
+
+            <h1 style="font-size: 120px;">zomato</h1>
+            <p style="font-size: 35px;"> Discover the best food & drinks in Jodhpur</p>
+        </div>
+        <div class="search" style="text-align:center">
+            <button type="submit" onclick="myFunction()" style="width: 120px; height: 80px; font-size: 24px;"><i
+                    class="fa fa-search"></i></button>
+            <input type="text" id="fname" placeholder="search for a restaurent,cuisine or a dish " name="search"
+                style="height:75px;width: 400px; padding-left: 30px; font-size: 20px;">
+
+        </div>
+        <p id="demo"></p>
+
+        <script>
+            function myFunction() {
+                let voteable;
+                let a = Number(document.getElementById("fname").value);
+                if (isNaN(a)) {
+                    v = " this is number please enter  a correct  input";
+                    alert(v)
+                } else if (a == "pizza" || a == "burger" || a == "pasta" || a == "rice") {
+                    v = "this is correct input go to the zomato main page";
+                    alert(v)
+                }
+                else {
+                    alert("please enter the coerrect input or enter the input")
+
+                }
+            }
+        </script>
+
+        <div class="header-img">
+            <img src="bag.jpg" alt="food" height="850px" width="1900px">
+        </div>
+    </header>
+    <main style="padding-left:  30px;">
+        <div class="jiet">
+
+            <a href="https://www.zomato.com/jodhpur/order-food-online?delivery_subzone=1450">
+                <img src="rise.webp" alt="error" width="550px" height="300px">
+                <figcaption>
+
+                    <p style="font-size:30px ;">Order Online</p>
+                    <p style="font-size:20px ;">stay home and order to your doorstep</p>
+                </figcaption>
+            </a>
+
+        </div>
+        <div class="group">
+
+
+            <a href="https://www.zomato.com/jodhpur/dine-out">
+                <img src="table.jpg" alt="error" width="550px" height="300px">
+                <figcaption>
+                    <p style="font-size:30px ;">Dining Out</p>
+                    <p style="font-size:20px ;">view the city's faviourate dinig venus</p>
+                </figcaption>
+            </a>
+
+        </div>
+        <div class="jodhpur">
+
+
+            <a href="https://www.zomato.com/jodhpur/drinks-and-nightlife">
+                <img src="bag.jpg" alt="error" width="550px" height="300px">
+                <figcaption>
+                    <p style="font-size:30px ;">Nightlife and Clubs</p>
+                    <p style="font-size:20px ;">Explore the city top nightlife outlet</p>
+                </figcaption>
+            </a>
+            </nav>
+            <br>
+            <br>
+    </main>
+    <footer style="padding-left: 70px;">
+        <h1 style="color: #000; font-size: 45px;">Collactions </h1>
+        <h3 style="color: #000; display: inline-block;float: left; font-size: 22px;"> Explore curated lists of top
+            restaurants, cafes,
+            pubs, and bars in
+            jodhpur, based on trends</h3>
+        <a href="https://www.zomato.com/kolkata/collections">
+            <h3 style=" float: left; padding-left: 630px; font-size: 22px; color: crimson;">All collection in jodhpur
+            </h3>
+        </a>
+        <div class="jiet">
+            <a href="https://www.zomato.com/jodhpur/top-restaurants">
+                <img src="trend.jpeg" alt="error" width="380px" height="300px">
+                <figcaption>Trending this week</figcaption>
+            </a>
+        </div>
+        <div class="group">
+            <a href="https://www.zomato.com/jodhpur/great-food-no-bull">
+                <img src="jodhpur.jpg" alt="error" width="380px" height="300px">
+                <figcaption>Best of Jodhpur</figcaption>
+            </a>
+        </div>
+        <div class="of">
+            <a href="https://www.zomato.com/jodhpur/biryani">
+                <img src="briyani.webp" alt="error" width="380px" height="300px">
+                <figcaption>Brilliant biryani</figcaption>
+            </a>
+
+        </div>
+        <div class="jodhpur">
+            <a href="https://www.zomato.com/jodhpur/best-coffee">
+                <img src="coffee.jpg" alt="error" width="380px" height="300px">
+                <figcaption>Aromatic Coffee</figcaption>
+            </a>
+        </div>
+        <br>
+        <br><br>
+        <br>
+        <hr>
+        <br>
+
+        <h1 style="font-size: 55px; color:#000">Popular localities in and around jodhpur</h1>
+        <section>
+            <a href="https://www.zomato.com/jodhpur/Sardarpura-restaurants">
+                <div class="jiet" style="border: solid black; width: 475px; ">
+                    <figcaption>Sardarpura <p style="font-size: 24px;">371 places</p>
+                    </figcaption>
+
+                </div>
+            </a>
+            <a href="https://www.zomato.com/jodhpur/chopasni-housing-board-restaurants">
+                <div class="group" style="border: solid black;  width: 475px; padding-left: 20px; margin-left: 80px;">
+
+                    <figcaption>Chopasni Housing board <p style="font-size: 24px;">311 places</p>
+                    </figcaption>
+
+                </div>
+            </a>
+            <a href="https://www.zomato.com/jodhpur/paota-restaurants">
+                <div class="jodhpur" style="border: solid black;  width: 475px; padding-left: 20px; margin-left: 80px;">
+
+                    <figcaption>Paouto <p style="font-size: 24px;">246 places</p>
+                    </figcaption>
+
+                </div>
+            </a>
+        </section>
+        <section>
+            <a href="https://www.zomato.com/jodhpur/basni-restaurants">
+                <div class="jiet" style="border: solid black; width: 475px; padding-left: 20px;margin-top: 80px;">
+                    <figcaption>Basni <p style="font-size: 24px;">241 places</p>
+                    </figcaption>
+
+                </div>
+            </a>
+            <a href="https://www.zomato.com/jodhpur/ratanada-restaurants">
+                <div class="group" style="border: solid black;  width: 475px; padding-left: 20px; margin: 80px;">
+
+                    <figcaption>Ratanada <p style="font-size: 24px;">221 places</p>
+                    </figcaption>
+
+                </div>
+            </a>
+            <a href="https://www.zomato.com/jodhpur/Shastri Nagar-restaurants">
+                <div class="jodhpur"
+                    style="border: solid black;  width: 475px; padding-left: 20px; margin-top: 80px; margin-bottom: 80px;">
+
+                    <figcaption>Shastri-Nagar <p style="font-size: 24px;">198 places</p>
+                    </figcaption>
+
+                </div>
+            </a>
+        </section>
+        <section>
+            <a href="https://www.zomato.com/jodhpur/Ravton ka Bas-restaurants">
+                <div class="jiet" style="border: solid black; width: 475px;  ">
+                    <figcaption>Ravton ka Bas <p style="font-size: 24px;">125 places</p>
+                    </figcaption>
+
+                </div>
+            </a>
+            <a href="https://www.zomato.com/jodhpur/Air Force Area-restaurants">
+                <div class="group" style="border: solid black;  width: 475px; padding-left: 20px; margin-left: 80px;">
+
+                    <figcaption>Air Force Area <p style="font-size: 24px;">84 places</p>
+                    </figcaption>
+
+                </div>
+            </a>
+            <a href="https://www.zomato.com/te/jodhpur">
+                <div class="jodhpur" style="border: solid black;  width: 475px; padding-left: 20px; margin-left: 80px;">
+
+                    <figcaption style="text-align: center; padding :23px;">See More <p style="font-size: 24px;"></p>
+                    </figcaption>
+
+                </div>
+            </a>
+        </section>
+
+        <div class="container">
+            <img src="link.png" alt="Snow" style="width:400%;">
+            <div class="bottom-left"><input type="email" placeholder="E-mail"
+                    style="height:70px; width: 440px; font-size:28px ; padding-left: 40px;"></div>
+        </div>
+        <h1 style="font-size: 45px; color:#000"> Explore options near me </h1>
+        <section class="list">
+            <select name="food" id="food"
+                style="width: 1700px; height: 90px; font-size: 30px;padding-left: 20px; margin-bottom: 80px;">
+                <option value="pizza"> Popular cuisine near me </option>
+                <option value="saab">
+                    1.Popular cuisine near me 2.bakery food near me 3.rajasthani food near me 4.pizza food near me 5.
+                    Ice-cream food
+                </option>
+                <option value="opel">near me 6.Itelian food near me 7.Burger food near me 8.Chinese food near me 9.Nort
+                    idian food near me 10. momos </option>
+                <option value="audi"> food near me 11.sweet near me 12.cafe food near me 13. sandwich food near me
+                    14.rolls food near me </option>
+            </select>
+
+            <select name="restaurants" id="restaurants"
+                style="width: 1700px; height: 90px; font-size: 30px;padding-left: 20px; margin-bottom: 80px;">
+                <option value="rest"> Popular restaurants types near me </option>
+                <option value="saab">
+                    1.Popular restaurants types near me 2.bars near me 3.clubs near me 4.cafe near me 5. Sweet shops
+                </option>
+                <option value="opel">near me 6.Itelian near me 7.Burger near me 8.Chinese near me 9.Nort idian near me
+                    10. momos </option>
+                <option value="audi"> food near me 11.sweet near me 12.cafe near me 13. sandwich near me 14.rolls near
+                    me </option>
+            </select>
+
+            <select name="Cities" id="Cities" style="width: 1700px; height: 90px; font-size: 30px;padding-left: 20px;">
+                <option value="rest"> Cities We Deliver to </option>
+                <option value="city"> 1.Delhi 2. mumbai 3. kolkata 4. banglore 5. surat 6. pune 7.churu 8.bhopal 9.
+                    Jodhpur 10. jaipur 11.patna</option>
+                <option value="Cities"> 12.pali 13.sojat 14.ooti 15.kanpur 16 puskar 17.leh --------------------- see
+                    More</option>
+            </select>
+
+        </section>
+        <br>
+        <br>
+        <img src="WEB.png" alt="ERROR" style="padding:0 px; margin:0px;width:100%;">
+    </footer>
+    <a href="log.html" style="text-align:center;border-radius: 4px ;padding: 10px;">
+        <h3>zomato food delevery </h3>
+    </a>
+</body>
+
+</html>

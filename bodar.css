@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+header {
+    width: 100%;
+    height: 75vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+
+}
+.header-img {
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+.navbar {
+    display: flex;
+    font-size: 1vw;
+    padding-right: 25px;
+    list-style: none;
+}
+.navbar li {
+    padding-left: 45px;
+}
+.jiet {
+    float: left;
+}
+.group {
+    float: left ; 
+}
+.jodhpur {
+    float: left;
+}
+
+main div {
+    background-color: white;
+    color: black;
+    border: rgb(8, 12, 16);
+    width: 30%;
+   
+   padding: 1.5%;
+   
+}
+figcaption {
+    padding-left: 2%;
+}
+
+.jiet {
+    float: left;
+    border-width: thin;
+}
+.group {
+    float: left ; 
+    border-width: thin;
+}
+.of {
+    float: left;
+    border-width: thin;
+}
+.jodhpur {
+    float: left;
+    border-width: thin;
+}
+ footer div {  
+    color: black;
+    width: 23%;
+   padding: 1%;
+}
+figcaption {
+    font-size: 1cm;
+}
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 284px;
+    left: 630px;
+  }
+  .list div {
+    width: 94%;
+    margin-bottom: 80px;
+  }
